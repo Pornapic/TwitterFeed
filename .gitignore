@@ -8,3 +8,11 @@ out
 # Build artifacts
 **/target
 *.class
+
+# Terraform auto-generated files
+.terraform
+*.tfstate
+*.tfstate.*
+
+# Terraform variables files
+*.tfvars
